@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flexbox</title>
+    <style>
+        section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        .box {
+            flex: 1;
+            height: 700px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .Hbox{
+            flex: 1;
+            padding: 20px;
+            border: 1px solid #ccc;
+            margin: 10px;
+            text-align: center;
+            background-color: gray;
+
+        }
+        .Footer{
+            flex: 1;
+            padding: 20px;
+            border: 1px solid #ccc;
+            margin: 10px;
+            text-align: center;
+            background-color: gray;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="Hbox">
+            <h1>HEADER</h1>
+        </div>
+    </header>
+    <section>
+        <div class="box">
+            <h2>Box 1</h2>
+            <p>This is the content of Box 1.</p>
+        </div>
+        <div class="box">
+            <h2>Box 2</h2>
+            <p>This is the content of Box 2.</p>
+        </div>
+        <div class="box">
+            <h2>Box 3</h2>
+            <p>This is the content of Box 3.</p>
+        </div>
+    </section>
+    <footer>
+        <div class="Footer">
+            <p><a href="qwerasfdzxcv">link 1</a></p>
+            <p><a href="kljhasdf">link 2</a></p>
+            <p><a href="lkjahsfdqiuyorwe">link 3</a></p>
+        </div>
+    </footer>
+</body>
+</html>
